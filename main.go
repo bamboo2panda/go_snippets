@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	readfromfile.ReadFromFile()
+	readfromfile.ReadLines()
 }
