@@ -7,7 +7,7 @@ import (
 	"os"
 )
 
-func ReadFromFile() {
+func main() {
 	file, err := os.Open("data.txt")
 	if err != nil {
 		log.Fatal(err)
