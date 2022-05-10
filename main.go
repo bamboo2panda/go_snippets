@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/bamboo2panda/go_snippets/readfromfile"
+	"snippets/readfromfile"
 )
 
 func main() {
-	readfromfile.ReadLines()
+	readfromfile.ReadLines("./data.txt")
 }
